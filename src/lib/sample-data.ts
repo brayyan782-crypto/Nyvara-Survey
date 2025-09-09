@@ -1,0 +1,28 @@
+import { SurveyFormData } from "./types";
+
+export const SAMPLE_SURVEY_DATA: SurveyFormData = {
+  q1_name: "Clínica Estética 'Aura'",
+  q1_location: "Madrid",
+  q1_country: "Spain",
+  q1_phone: "+34 912 345 678",
+  q1_experience: 15,
+  q1_role: "Director Médico y Dermatólogo",
+  q2_services: "Ofrecemos una gama completa de tratamientos faciales y corporales, desde rellenos dérmicos y neuromoduladores hasta terapias láser avanzadas y contorno corporal no invasivo. Nos especializamos en rejuvenecimiento facial integral.",
+  q2_unique: "Nuestra técnica 'Aura Glow' es un protocolo personalizado que combina microdermoabrasión, mesoterapia con vitaminas y fototerapia LED para lograr una luminosidad y textura de la piel inigualables.",
+  q3_persona: "Si nuestra marca fuera una persona, sería un arquitecto de renombre: preciso, innovador y con una profunda comprensión de la estética y la estructura. Alguien que crea belleza duradera basada en cimientos sólidos.",
+  q4_perception: ["Lujosa y exclusiva", "Científica y rigurosa", "Humana y empática"],
+  q5_emotions: ["Confianza y seguridad", "Bienestar y calma", "Rejuvenecimiento y vitalidad"],
+  q6_why: "Buscamos realzar la belleza natural de nuestros pacientes, dándoles la confianza para proyectar su mejor versión. Creemos que la medicina estética es una herramienta para el bienestar integral.",
+  q7_differentiation: ["Mi enfoque único y filosofía", "La tecnología exclusiva", "La atención post-tratamiento"],
+  q7_why: "Nuestro enfoque se basa en la 'Medicina Estética Consciente', donde cada tratamiento se personaliza al máximo, considerando no solo la fisionomía del paciente sino también su estilo de vida y objetivos personales. Usamos tecnología de diagnóstico facial 3D para planificar con precisión.",
+  q8_value: ["Mi relación cercana y comunicación", "La honestidad y transparencia", "La calidad de mis resultados"],
+  q9_presence: ["Instagram", "Página Web", "Blog", "WhatsApp"],
+  q10_rating: 8,
+  q10_challenges: ["Falta de tiempo", "Alta competencia", "No saber qué publicar"],
+  q11_training: "Sí",
+  q12_details: "Me gustaría crear cursos online sobre técnicas avanzadas de aplicación de bioestimuladores y gestión de complicaciones en medicina estética.",
+  q13_colors: "Una paleta de dorados suaves, marfiles y un toque de azul petróleo. El dorado y marfil evocan lujo, calidez y cuidado premium. El azul petróleo añade un toque de seriedad, ciencia y confianza.",
+  q14_hobby: "En mi tiempo libre, disfruto de la fotografía arquitectónica y la navegación a vela. Ambas actividades requieren precisión, planificación y un ojo para la belleza y la armonía, principios que aplico en mi práctica diaria.",
+  q15_final: "Creemos firmemente en la educación del paciente. Un paciente informado toma mejores decisiones y se siente más seguro. Por eso dedicamos una parte importante de la consulta a explicar cada detalle del tratamiento.",
+  competitors: [{ name: "Clínica Renacer" }, { name: "Esthetic Line" }],
+};
